@@ -13,7 +13,13 @@ import { cn } from "@/lib/utils";
  */
 const navLinks: { href: string; label: string }[] = [
   // ====== INÍCIO DA ÁREA DE EDIÇÃO COLABORATIVA ======
-{ href: "/contato", label: "Contato" },
+
+  { href: "/", label: "Home" },
+  { href: "/sobre", label: "Sobre" },
+  { href: "/servicos", label: "Serviços" },
+  { href: "/contato", label: "Contato" },
+
+
   // ====== FIM DA ÁREA DE EDIÇÃO COLABORATIVA ======
 ];
 
